@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AsProj</string>
+    <string name="if_home">&#xe8c6;</string>
+    <string name="if_recommend">&#xe63f;</string>
+    <string name="if_chat">&#xe63c;</string>
+    <string name="if_profile">&#xe634;</string>
+    <string name="if_category">&#xf00a6;</string>
+    <string name="if_favorite">&#xe639;</string>
+    <string name="degrade_title">错误提示</string>
+    <string name="title_recommend">精选推荐</string>
+    <string name="title_favorite">商品收藏</string>
+</resources>

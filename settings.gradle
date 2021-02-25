@@ -1,0 +1,13 @@
+include ':common'
+include ':hiui'
+include ':hilibrary'
+include ':app'
+rootProject.name = " AsProj"
+
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+        settingsDir.parentFile, 'flutter_hi_module/.android/include_flutter.groovy'
+))
+
+include ':flutter_hi_module'
+project(':flutter_hi_module').projectDir = new File('../flutter_hi_module')
